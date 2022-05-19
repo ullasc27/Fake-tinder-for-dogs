@@ -1,0 +1,165 @@
+/* refactor code */
+.big_header {
+  font-size: 3rem;
+  font-family: 'Montserrat-black', sans-serif;
+  color: white;
+  padding: 3% 5%;
+}
+#pricing .big_header {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.small_text {
+  color: grey;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+#testimonials {
+  text-align: center;
+  background-color: #FF7F50;
+  color: white;
+}
+.ti {
+  border-radius: 100%;
+  width: 20%;
+}
+em {
+  font-size: 1.5rem;
+}
+/* refactor code */
+
+
+#title {
+  background-color: #ff4c68;
+  padding: 1% 15%;
+  color: white;
+  z-index: -1;
+}
+#features {
+  text-align: center;
+  padding: 5% 15% 0 15%;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  bottom: 8rem;
+  background-color: white;
+}
+body {
+  position: absolute;
+  width: 100%;
+}
+a {
+  font-family: 'Montserrat-light', sans-serif;
+}
+.navbar {
+  font-size: 120%;
+}
+.nav-iteam {
+  padding: 0 4%;
+}
+.cimg {
+  transform: rotate(22deg);
+  width: 50%;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+@media (min-width: 400px)  {
+
+      .cimg {
+        transform: rotate(0deg);
+        width: 50%;
+        margin-top: 15%;
+        margin-right: 15%;
+    }
+      #title {
+        background-color: #ff4c68;
+        padding: 1% 15%;
+        color: white;
+        text-align: center;
+      }
+      .brand {
+        font-size: 160%;
+      }
+      .hone {
+        font-size: 170%;
+      }
+      .test-header {
+        font-size: 2rem;
+      }
+      .foot {
+        color: white;
+        font-size: 32px;
+        padding-bottom: 3%;
+      }
+
+}
+@media (min-width: 1500px) {
+      .brand {
+        font-size: 250%;
+      }
+      .hone {
+        font-size: 270%;
+        margin-top: 10%;
+      }
+      .cimg {
+        transform: rotate(22deg);
+        width: 50%;
+        margin-left: 15%;
+        margin-top: 20%;
+      }
+      .foot {
+        color: white;
+        font-size: 100%;
+        padding-bottom: 3%;
+      }
+}
+
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 4.5rem;
+}
+.sold {
+  font-size: 4.5rem;
+  padding: 4% 0 4% 0;
+  color: #FF7F50;
+}
+.sold:hover {
+  color: #ff4c68;
+}
+
+#press {
+  background-color: #FF7F50;
+  text-align: center;
+}
+.press-img {
+  padding: 1% 2% 3% 2%;
+}
+.carousel-item {
+  padding: 6% 25% 4% 25%;
+}
+/* pricing */
+#pricing {
+  padding: 5% 12%;
+  text-align: center;
+}
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  height: 100%;
+  padding: 6% 0 6%;
+}
+#footer {
+  text-align: center;
+  padding: 2%;
+}
+.Ficon {
+  padding: 2% 0.5%;
+}
+.btn_app {
+  margin-right: 2%;
+}
